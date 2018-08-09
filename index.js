@@ -4,7 +4,7 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 if (string === 'I love u, Grandma.') {
-  return "I love you too."
+  return string("I love you too.")
   
 }
 
