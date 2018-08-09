@@ -2,7 +2,8 @@ function shout(string) {
   return string.toUpperCase()
 }
 function whisper(string) {
-  return string.toLowerCase()
+  return string.toLowerCase() }
+  function logShout(string) {
 if (string === 'I love u, Grandma.') {
   return string("I love you too.")
   
