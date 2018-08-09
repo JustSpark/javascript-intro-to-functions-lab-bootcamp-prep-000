@@ -3,10 +3,11 @@ function shout(string) {
 }
 function whisper(string) {
   return string.toLowerCase()
+if (string === 'I love u, Grandma.') {
+  return "I love you too."
+  
 }
-function logShout(spy) {
-  if (spy === 'HELLO'.toUpperCase)
-  return 'HELLO'.toUpperCase()
+
 }
 function sayHiToGrandma(string) {
   if (string === string.toLowerCase()) 
