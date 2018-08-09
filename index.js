@@ -4,10 +4,8 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase() }
   function logShout(string) {
-if (string === 'I love u, Grandma.') {
-  return string("I love you too.")
-  
-}
+
+
 
 }
 function sayHiToGrandma(string) {
@@ -17,4 +15,8 @@ function sayHiToGrandma(string) {
   return "YES INDEED!"
   else if (string === "I love u, Grandma.")
   return "I love you too."
+}
+function iLoveGrandma(string) {
+  if (string === "I love u, Grandma")
+  return string === "I love you too."
 }
